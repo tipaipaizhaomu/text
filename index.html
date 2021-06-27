@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>练习</title>
+    <style>
+        .dakuang {
+            position: relative;
+            top: 157px;
+            left: 12px;
+            height: 285px;
+            width: 360px;
+            background-color: white;
+            border-radius: 5%;
+            border-color: rgb(13, 142, 248);
+            border-style: outset;
+            border-width: 3px;
+            overflow: hidden;
+        }
+        .lantiao {
+            height: 45px;
+            position: absolute;
+            width: 360px;
+            background-color: rgb(13, 142, 248);
+        }
+        .lantiao .cha {
+            display: inline-block;
+            position: absolute;
+            left: 318px;
+            top:2px;
+            height: 40px;
+            width: 40px;
+            background-color: white;
+            border-radius: 5%;
+            z-index: 1;
+        }
+        .cha p {
+            color: red;
+            font-size: 50px;
+            position: absolute;
+            top: -69px;
+            left: 8px;
+        }
+        .cha:hover {
+            position: absolute;
+            left: 268px;
+        }
+        .anniu {
+            display: block;
+            height: 40px;
+            width: 95px;
+            position: absolute;
+            top: 194px;
+            left: 62px;
+            background-color: rgb(13, 142, 248);
+            border-radius: 10%;
+            text-align: center;
+            margin: auto;
+            line-height: 38px;
+            color: white;
+            transition: all 0.1s;
+        }
+        .anniu2 {
+            display: block;
+            height: 40px;
+            width: 95px;
+            position: absolute;
+            top: 194px;
+            left: 62px;
+            background-color: rgb(13, 142, 248);
+            border-radius: 10%;
+            text-align: center;
+            margin: auto;
+            line-height: 38px;
+            color: white;
+        }
+        .anniu2:hover {
+            top: 250px;
+        }
+       
+    </style>
+</head>
+<body>
+        <div class="dakuang">
+            <div class="lantiao">
+                <div class="cha"><p>x</p></div>
+            </div>
+            <p style="font-size: 30px;position: absolute;top:75px;left: 126px;">谁是猪？</p>
+            <div class="anniu"><a href="javascript:alert('没错！')" style="text-decoration: none;color: white;" >侯泽伟</a></div>
+            <div class="anniu2" style="left: 180px;"><a href="#" style="text-decoration: none;color: white;" >任利安</a></div>
+        </div>
+</body>
+</html>
